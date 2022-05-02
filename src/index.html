@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>OSSE Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple Calculator deployed using GitHub pages for OSSE Assignment 4">
+    <link href="./static/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="./calculator.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Calculator</h1>
+		<div class="display-box">
+            <div class="operand">
+                <span id="operand1"></span>
+            </div>
+            <div class="operator">
+                <span id="operator"></span>
+            </div>
+            <div class="operand">
+                <span id="operand2"></span>
+            </div>
+            <div class="operator">
+                <span>=</span>
+            </div>
+            <div class="output">
+                <span id="output"></span>
+            </div>
+        </div>
+		<div class="input-box">
+            <!-- Following button is to maintain the grid positioning, spans two cols. do not touch it -->
+            <button class="btn-span-two" style="visibility:hidden">EMPTY</button>
+
+            <button data-operator>DEL</button>
+            <!-- add other operator here and remove visibility style-->
+            <button data-operator>/</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <!-- add other operator here and remove visibility style-->
+            <button data-operator>*</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <!-- add other operator here and remove visibility style-->
+            <button data-operator>-</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operator>+</button>
+
+            <button class="btn-span-two" data-operator>AC</button>
+            <button data-number>0</button>
+            <button data-operator>=</button>
+        </div>
+	</div>
+</body>
+</html>
