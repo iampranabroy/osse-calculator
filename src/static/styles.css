@@ -96,3 +96,13 @@ body {
 .empty-operator-display-box {
 	border-bottom: 3px solid salmon;
 }
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header > img {
+	margin-right: 8px;
+}
