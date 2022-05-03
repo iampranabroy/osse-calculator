@@ -1,0 +1,108 @@
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background: var(--color-primary);
+	color: var(--color-accent-secondary);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 16px;
+}
+
+.display-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+}
+
+.operand {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	min-width: 50px;
+	font-size: 40px;
+	margin: 0 16px;
+	box-sizing: border-box;
+}
+
+.operator {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	min-width: 50px;
+	font-size: 32px;
+	margin: 0 16px;
+	box-sizing: border-box;
+}
+
+.output {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	font-size: 48px;
+	font-weight: bold;
+	font-style: italic;
+	padding: 0 32px;
+	box-sizing: border-box;
+}
+
+.input-box {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.input-box>button {
+	cursor: pointer;
+	font-size: 32px;
+	border: 1px, solid #FFFFFF;
+	outline: none;
+	background-color: rbga(255, 255, 255, 0.75);
+}
+
+.btn-span-two {
+	grid-column: span 2;
+}
+
+.empty-operand-display-box {
+	border-bottom: 3px solid lightskyblue;
+}
+
+.empty-output-display-box {
+	border-bottom: 3px solid springgreen;
+}
+
+.empty-operator-display-box {
+	border-bottom: 3px solid salmon;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header>img {
+	margin-right: 8px;
+}
