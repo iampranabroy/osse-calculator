@@ -1,13 +1,39 @@
-# osse-calculator
-For OSSE assignment4
+# osse-assignment4-calculator
 
-This is a web calculator for OSS project. 
-It is quite simple for people of any skill level.
-This project covers the interactions with UI and key JavaScript methods.
+- [osse-assignment4-calculator](#osse-assignment4-calculator)
+  - [Introduction](#introduction)
+  - [Tech stack](#tech-stack)
+  - [Getting started](#getting-started)
+  - [Contribution model](#contribution-model)
+  
+## Introduction
 
-In this Project, you will be taken through the various HTML and CSS elements along with
-Vanilla JavaScript and modern ES6 practices used in building a functional and responsive calculator.
+This is a web calculator for OSS project assignment 4. This is build on web browser so that users don't need to install any libraries or anything. Users can directly use web browsers to use the functionalities of the calculator.
 
-To get started, you need to consider the basic functionalities of a calculator. They include addition,
-subtraction, multiplication, division, delete, all-clear, and of course, the ability to use decimal
-numbers in performing these operations.
+---
+
+## Tech stack
+
+- JavaScript
+- HTML
+- CSS
+- ES6
+
+---
+
+## Getting started
+
+Users can open the [calculator](http://www.iampranabroy.com/osse-calculator/src) They include ability to use decimal numbers in performing the below operations.
+
+- addition
+- subtraction
+- multiplication
+- division
+- delete
+- all-clear(AC)
+
+---
+
+## Contribution model
+
+All current contributors forked the main repository and after making the changes, created `PR` to the `main` branch.
