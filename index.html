@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>OSSE Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple Calculator deployed using GitHub pages for OSSE Assignment 4">
+    <link rel="icon" type="image/png" href="./src/static/favicon.png" />
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+        <div class="header">
+            <img src="./src/static/favicon.png" width="100" height="100" />
+            <h1>Simple Calculator App</h1>
+        </div>
+        <div class="tabs">
+            <input type="radio" name="name" checked="checked"/>
+            <div class="tab-id">1</div>
+            <div class="tab-content">
+                <div class="title">What is this project about?</div>
+                <div class="description">
+                    Simple Calculator app was designed as part of OSSE assignment 4.
+                    <br /><br />
+                    It is a HTML/CSS/JavaScript based application capable of running in your browser. It can be used to
+                    perform simple arithmetic operations involving two operands and a single operator.
+                    <br /><br />
+                    You can check out the hosted version <a href="/src/" target="_blank">here</a>.
+                    <br /><br />
+                    <div class="center-content">
+                        <img src="./examples/calculator-ui.png" alt="calculator-ui" height="400" />
+                    </div>
+                </div>
+            </div>
+            <input type="radio" name="name"/>
+            <div class="tab-id">2</div>
+            <div class="tab-content">
+                <div class="title">Operations Supported</div>
+                <div class="description">
+                    As of now, the following operations are supported:
+                    <ul>
+                        <li>Addition</li>
+                        <li>Subtraction</li>
+                        <li>Multiplication</li>
+                        <li>Division</li>
+                        <li>All Clear</li>
+                        <li>Delete</li>
+                    </ul>
+                </div>
+            </div>
+            <input type="radio" name="name"/>
+            <div class="tab-id">3</div>
+            <div class="tab-content">
+                <div class="title">How to run the project?</div>
+                <div class="description">
+                    <ul>
+                        <li>
+                            Clone the project:
+                            <pre>git clone https://github.com/iampranabroy/osse-calculator</pre>
+                        </li>
+                        <li>
+                            Use your favourite http server to serve the contents of src folder.
+                            <br/>
+                            We recommend using the simple HTTP server provided by python. Run the following command from
+                            the root of the project:
+                            <pre>python3 -m http.server -d src 8000</pre>
+                        </li>
+                        <li>
+                            Open <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> on your favourite browser.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <input type="radio" name="name"/>
+            <div class="tab-id">4</div>
+            <div class="tab-content">
+                <div class="title">How to contribute?</div>
+                <div class="description">
+                    Read our Contributing Guide to learn about our development process, how to propose bugfixes and
+                    improvements, and how to build and test your changes to the project.
+                </div>
+            </div>
+            <input type="radio" name="name"/>
+            <div class="tab-id">5</div>
+            <div class="tab-content">
+                <div class="title">License</div>
+                <div class="description">
+                    Our project is MIT licensed, as found in the
+                    <a href="https://github.com/iampranabroy/osse-calculator/blob/main/LICENSE" target="_blank">LICENSE</a>
+                    file.
+                </div>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
