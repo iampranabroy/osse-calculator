@@ -5,6 +5,7 @@
   - [Tech stack](#tech-stack)
   - [Getting started](#getting-started)
   - [Contribution model](#contribution-model)
+  - [Roadmap](#roadmap)
   
 ## Introduction
 
@@ -37,3 +38,11 @@ Users can open the [calculator](http://www.iampranabroy.com/osse-calculator/src)
 ## Contribution model
 
 All current contributors forked the main repository and after making the changes, created `PR` to the `main` branch.
+
+---
+
+## Roadmap
+
+The calculator can be extended to have scientific calculator functionalities like trigonometry, logarithmic functions and exponential functions. Contributors are free to `fork` the main repo, add functionality and raise new PR to the `main` branch.
+
+---
