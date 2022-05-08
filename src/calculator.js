@@ -109,7 +109,16 @@ class Calculator {
 				break;}
 			case '-':{
 				result=operand1-operand2;
-				break;}
+				break;
+			}
+			case '*': {
+				result = operand1 + operand2;
+				break;
+			}
+			case '/': {
+				result = operand1 - operand2;
+				break;
+			}
 			default: {
 				console.error('This operation is not supported yet!');
 				break;
