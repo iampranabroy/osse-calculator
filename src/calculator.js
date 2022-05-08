@@ -116,7 +116,11 @@ class Calculator {
 				break;
 			}
 			case '/': {
-				result = operand1 / operand2;
+				if (operand2 !== 0) {
+					result = operand1 / operand2;
+				} else {
+					console.error('Arithmetic error: Cannot divide by zero!');
+				}
 				break;
 			}
 			default: {
