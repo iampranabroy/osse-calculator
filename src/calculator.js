@@ -103,13 +103,21 @@ class Calculator {
 	_performOperation(operand1, operand2, operation) {
 		let result = null;
 		switch (operation) {
-			// TODO: fill other operation methods in this switch case
 				case '+':{
 				result=operand1+operand2;
 				break;}
 			case '-':{
 				result=operand1-operand2;
-				break;}
+				break;
+			}
+			case '*': {
+				result = operand1 * operand2;
+				break;
+			}
+			case '/': {
+				result = operand1 / operand2;
+				break;
+			}
 			default: {
 				console.error('This operation is not supported yet!');
 				break;
